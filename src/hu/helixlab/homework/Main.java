@@ -69,6 +69,28 @@ public class Main {
         System.out.println();
 
 
+        /*
+        Negyedik feladat
+        ----------------
+
+        Deklaráltam int típusúként a Celsiust és a Fahrenheitet, majd értéket adtam nekik.
+         */
+
+        int fahrenheitvalue = 70;
+        int celsiusvalue = 10;
+
+        //A képlet alapján kiszámítom az adott fahrenheit hány Celsius foknak felel meg.
+        //Az osztás elvégzéséhez erőltetnem kellett az 5 és a 9 double-ként kezelését.
+
+        double celsius = (fahrenheitvalue - 32) * (5d / 9d);
+        double fahrenheit = 9d / 5d * celsiusvalue + 32;
+
+        System.out.println("Negyedik feladat.");
+        System.out.println("\t" + celsiusvalue + " Celsius = " + fahrenheit + " Fahrenheit");
+        System.out.println("\t" + fahrenheitvalue + " Fahrenheit = " + celsius + " Celsius");
+        System.out.println();
+
+
 
     }
 }
