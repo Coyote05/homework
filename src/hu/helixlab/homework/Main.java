@@ -49,6 +49,26 @@ public class Main {
         System.out.println();
 
 
+        /*
+        Harmadik feladat
+        ----------------
+
+        A gömb sugarát int típusúnak deklarálom, értéke adott.
+        A PI értékét konstansként rögzítem
+         */
+
+        int r = 3;
+        final double PI = 3.14;
+
+        //Kiszámítom a térfogatot a képlet alapján és kiíratom az eredményt: V = (4*r^3*PI)/3
+
+        double volume2 = (4 * r * r * r * PI)/3;
+
+        System.out.println("Harmadik feladat.");
+        System.out.println("\t A " + r + " sugarú gömb térfogata: " + volume2);
+        System.out.println();
+
+
 
     }
 }
