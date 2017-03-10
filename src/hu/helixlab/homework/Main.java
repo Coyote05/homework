@@ -11,7 +11,7 @@ public class Main {
         Deklaráltam két int típusú változót a téglalap oldalainak meghatározásához.
         A négyzet olyan speciális téglalap, amelyiknek minden oldala egyenlő.
         Csak négyzet esetén lehet a kerület és a terület egyenlő.
-         */
+        */
         int a = 4;
         int b = 4;
 
@@ -55,7 +55,7 @@ public class Main {
 
         A gömb sugarát int típusúnak deklarálom, értéke adott.
         A PI értékét konstansként rögzítem
-         */
+        */
 
         int r = 3;
         final double PI = 3.14;
@@ -74,21 +74,29 @@ public class Main {
         ----------------
 
         Deklaráltam int típusúként a Celsiust és a Fahrenheitet, majd értéket adtam nekik.
-         */
+        */
 
-        int fahrenheitvalue = 70;
-        int celsiusvalue = 10;
+        int fahrenheitValue = 70;
+        int celsiusValue = 10;
 
         //A képlet alapján kiszámítom az adott fahrenheit hány Celsius foknak felel meg.
         //Az osztás elvégzéséhez erőltetnem kellett az 5 és a 9 double-ként kezelését.
 
-        double celsius = (fahrenheitvalue - 32) * (5d / 9d);
-        double fahrenheit = 9d / 5d * celsiusvalue + 32;
+        double celsius = (fahrenheitValue - 32) * (5d / 9d);
+        double fahrenheit = 9d / 5d * celsiusValue + 32;
 
         System.out.println("Negyedik feladat.");
-        System.out.println("\t" + celsiusvalue + " Celsius = " + fahrenheit + " Fahrenheit");
-        System.out.println("\t" + fahrenheitvalue + " Fahrenheit = " + celsius + " Celsius");
+        System.out.println("\t" + celsiusValue + " Celsius = " + fahrenheit + " Fahrenheit");
+        System.out.println("\t" + fahrenheitValue + " Fahrenheit = " + celsius + " Celsius");
         System.out.println();
+
+
+        /*
+        Ötödik feladat
+        ----------------
+        */
+
+        System.out.println("**************\n* Hello \t * \n* World \t * \n* in \t \t \t * \n* a \t \t * \n* frame \t * \n***************");
 
 
 
