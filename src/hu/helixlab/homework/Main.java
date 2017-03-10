@@ -25,5 +25,30 @@ public class Main {
         System.out.println("\t A téglalap kerülete: " + circumference + " cm");
         System.out.println();
 
+
+        /*
+        Második feladat
+        ---------------
+
+        Meghatároztam deciliterben egy térfogatértéket.
+        */
+
+        int volume = 3000;
+        int ml = volume * 100;
+        int cl = volume * 10;
+        int l = volume / 10;
+        int hl = volume / 1000;
+
+        //Kiíratom a térfogatértéket különböző mértékegységekben.
+
+        System.out.println("Második feladat.");
+        System.out.println("\t" + volume + " dl = " + ml + " ml");
+        System.out.println("\t" + volume + " dl = " + cl + " cl");
+        System.out.println("\t" + volume + " dl = " + l + " l");
+        System.out.println("\t" + volume + " dl = " + hl + " hl");
+        System.out.println();
+
+
+
     }
 }
