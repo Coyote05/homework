@@ -96,9 +96,21 @@ public class Main {
         ----------------
         */
 
+        System.out.println("Ötödik feladat.\n" );
         System.out.println("**************\n* Hello \t * \n* World \t * \n* in \t \t \t * \n* a \t \t * \n* frame \t * \n***************");
+        System.out.println();
 
 
+        /*
+        Hatodik feladat
+        ----------------
+        */
+
+        int number = 100;
+        char characterd = ((char) + number);
+
+        System.out.println("Hatodik feladat.");
+        System.out.println("\t" + "A \'" + characterd + "\' karakter Ascii kódja: " + number);
 
     }
 }
