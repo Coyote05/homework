@@ -106,11 +106,11 @@ public class Main {
         ----------------
         */
 
-        int number = 100;
-        char characterd = ((char) + number);
+        char character = 'd';
+        int ascii = (int) character;
 
         System.out.println("Hatodik feladat.");
-        System.out.println("\t" + "A \'" + characterd + "\' karakter Ascii kódja: " + number);
+        System.out.println("\tA \'" + character + "\' karakter Ascii kódja: " + ascii);
 
     }
 }
