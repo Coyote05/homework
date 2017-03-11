@@ -97,7 +97,7 @@ public class Main {
         */
 
         System.out.println("Ötödik feladat.\n" );
-        System.out.println("**************\n* Hello \t * \n* World \t * \n* in \t \t \t * \n* a \t \t * \n* frame \t * \n***************");
+        System.out.println("**************\n* Hello \t * \n* World \t * \n* in \t \t * \n* a \t \t * \n* frame \t * \n***************");
         System.out.println();
 
 
