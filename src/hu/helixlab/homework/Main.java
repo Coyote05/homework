@@ -112,5 +112,6 @@ public class Main {
         System.out.println("Hatodik feladat.");
         System.out.println("\tA \'" + character + "\' karakter Ascii kódja: " + ascii);
 
+
     }
 }
