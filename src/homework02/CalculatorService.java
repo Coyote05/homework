@@ -5,6 +5,10 @@ public class CalculatorService {
 
     public static void main(String[] args) {
 
+        /*
+        Egy adoot számról eldönti páros-e. Futtatáskor igaz vagy hamis érték kerül kiírása.
+         */
+
         int number = 5;
 
         if (number % 2 == 0){
@@ -18,3 +22,4 @@ public class CalculatorService {
         }
     }
 }
+
