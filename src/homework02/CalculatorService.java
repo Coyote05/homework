@@ -3,21 +3,20 @@ package homework02;
 
 public class CalculatorService {
 
-    int x;
+    int a;
 
     public CalculatorService(){
     }
 
     public void isItEven(int number){
-        this.x = number;
+        this.a = number;
     }
 
     public int getnumber(){
-        return this.x;
+        return this.a;
     }
 
     public boolean paros(){
-        return this.x % 2 == 0;
+        return this.a % 2 == 0;
     }
-
 }
