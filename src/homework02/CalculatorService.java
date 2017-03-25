@@ -3,23 +3,21 @@ package homework02;
 
 public class CalculatorService {
 
-    public static void main(String[] args) {
+    int x;
 
-        /*
-        Egy adoot számról eldönti páros-e. Futtatáskor igaz vagy hamis érték kerül kiírása.
-         */
-
-        int number = 5;
-
-        if (number % 2 == 0){
-
-            System.out.println("true");
-        }
-
-        else{
-
-            System.out.println("false");
-        }
+    public CalculatorService(){
     }
-}
 
+    public void isItEven(int number){
+        this.x = number;
+    }
+
+    public int getnumber(){
+        return this.x;
+    }
+
+    public boolean paros(){
+        return this.x % 2 == 0;
+    }
+
+}

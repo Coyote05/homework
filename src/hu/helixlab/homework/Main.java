@@ -1,5 +1,7 @@
 package hu.helixlab.homework;
 
+import homework02.CalculatorService;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -112,6 +114,19 @@ public class Main {
         System.out.println("Hatodik feladat.");
         System.out.println("\tA \'" + character + "\' karakter Ascii kódja: " + ascii);
 
+        /*
+        * Második feladatsor
+        * Első feladat
+        * ------------------
+        * */
 
+        System.out.println();
+        System.out.println("Második feladatsor. Első feladat.\n" );
+
+        CalculatorService calculatorService = new CalculatorService();
+        calculatorService.isItEven(6);
+
+        System.out.println("\t" + calculatorService.getnumber() + " páros?");
+        System.out.println("\t" + calculatorService.paros());
     }
 }
