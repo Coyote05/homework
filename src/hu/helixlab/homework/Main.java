@@ -124,9 +124,7 @@ public class Main {
         System.out.println("Második feladatsor. Első feladat.\n" );
 
         CalculatorService calculatorService = new CalculatorService();
-        calculatorService.isItEven(6);
 
-        System.out.println("\t" + calculatorService.getnumber() + " páros?");
         System.out.println("\t" + calculatorService.isItEven(6));
 
         /*

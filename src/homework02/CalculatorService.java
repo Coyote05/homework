@@ -13,11 +13,6 @@ public class CalculatorService {
         return this.a % 2 == 0;
     }
 
-    public int getnumber(){
-
-        return this.a;
-    }
-
 
     /*Masodik feladat*/
 
