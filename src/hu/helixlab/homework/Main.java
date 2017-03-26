@@ -128,5 +128,21 @@ public class Main {
 
         System.out.println("\t" + calculatorService.getnumber() + " páros?");
         System.out.println("\t" + calculatorService.paros());
+
+        /*
+        * Második feladat
+        * ------------------
+        * */
+
+        System.out.println();
+        System.out.println("Második feladat.\n" );
+
+        calculatorService.setX(6);
+        calculatorService.setY(2);
+        calculatorService.setOperator('*');
+
+        System.out.println("\tA beolvasott számok és művelet:" + calculatorService.getX() + " " + calculatorService.getY() + " " + calculatorService.getOperator());
+        System.out.println("\tEredmény: " + calculatorService.calculate());
+
+        }
     }
-}
