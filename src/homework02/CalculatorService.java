@@ -66,14 +66,14 @@ public class CalculatorService {
         public int result2;
 
         public int bigger(){
-            if((num1 > num2 && num1 % 2 == 0) || (num1 < num2 && num1 % 2 == 0)){
+            if((num1 > num2 && num1 % 2 == 0) || (num1 < num2 && num1 % 2 != 0)){
                 result2 = num1;
             }
             else if(num2 > num1 && num2 % 2 != 0){
                 result2 = num2;
             }
             else{
-                result2 = num1 + num2;
+                result2 = num1 * num2;
             }
             return result2;
         }
