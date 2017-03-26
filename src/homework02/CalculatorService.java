@@ -3,14 +3,12 @@ package homework02;
 
 public class CalculatorService {
 
-    int a;
-
     public CalculatorService(){
     }
 
     public boolean isItEven(int number){
-        this.a = number;
-        return this.a % 2 == 0;
+
+        return number % 2 == 0;
     }
 
 
