@@ -166,7 +166,16 @@ public class Main {
 
         System.out.println("\t" + calculatorService.num + " egész szám? " + calculatorService.even(calculatorService.num));
 
+        /*
+        * Ötödik feladat
+        * ------------------
+        * */
 
+        System.out.println();
+        System.out.println("Ötödik feladat.\n" );
+
+        System.out.println("\t" + calculatorService.num1 + " " + calculatorService.num2);
+        System.out.println("\t" + calculatorService.bigger());
 
     }
     }
