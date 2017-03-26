@@ -52,8 +52,11 @@ public class CalculatorService {
 
         public boolean even(float num){
 
-            return num % 2 == 0;
+            return num == (int)num;
         }
+
+
+
 
 
 
