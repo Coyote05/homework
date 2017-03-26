@@ -41,7 +41,7 @@ public class CalculatorService {
 
         }
 
-        /*Harmadik feladat*/
+        /*Negyedik feladat*/
 
         float min = 25.0f;
         float max = 50.0f;
@@ -54,7 +54,6 @@ public class CalculatorService {
 
             return num % 2 == 0;
         }
-
 
 
 

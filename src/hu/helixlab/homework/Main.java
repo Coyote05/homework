@@ -166,5 +166,15 @@ public class Main {
 
         System.out.println("\t" + calculatorService.num + " szám páros? " + calculatorService.even(calculatorService.num));
 
+        /*
+        * Ötödik feladat
+        * ------------------
+        * */
+
+        System.out.println();
+        System.out.println("Ötödik feladat.\n" );
+
+
+
     }
     }
