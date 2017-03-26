@@ -14,50 +14,22 @@ public class CalculatorService {
 
     /*Masodik feladat*/
 
-    int x;
-    int y;
-    char operator;
     int result;
 
-    public void setX(int paraX) {
-        this.x = paraX;
-    }
-
-    public int getX() {
-        return this.x;
-    }
-
-    public void setY(int paraY) {
-        this.y = paraY;
-    }
-
-    public int getY() {
-        return this.y;
-    }
-
-    public void setOperator(char idOperator) {
-        this.operator = idOperator;
-    }
-
-    public char getOperator() {
-        return this.operator;
-    }
-
-    public int calculate() {
-
+    public int calculate(int x, int y, char operator) {
 
             switch (operator) {
                 case '+':
-                    result =  this.x + this.y;
+                    result =  x + y;
                 break;
                 case '-':
-                    result = this.x - this.y;
+                    result = x - y;
                 break;
                 case '*':
-                    result = this.x * this.y;
+                    result = x * y;
                 break;
                 case '/':
-                    result = this.x / this.y;
+                    result = x / y;
                 break;
 
                 default:
