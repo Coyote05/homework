@@ -127,7 +127,7 @@ public class Main {
         calculatorService.isItEven(6);
 
         System.out.println("\t" + calculatorService.getnumber() + " páros?");
-        System.out.println("\t" + calculatorService.paros());
+        System.out.println("\t" + calculatorService.isItEven(6));
 
         /*
         * Második feladat

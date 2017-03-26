@@ -8,17 +8,16 @@ public class CalculatorService {
     public CalculatorService(){
     }
 
-    public void isItEven(int number){
+    public boolean isItEven(int number){
         this.a = number;
+        return this.a % 2 == 0;
     }
 
     public int getnumber(){
+
         return this.a;
     }
 
-    public boolean paros(){
-        return this.a % 2 == 0;
-    }
 
     /*Masodik feladat*/
 
