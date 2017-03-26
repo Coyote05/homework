@@ -156,10 +156,15 @@ public class Main {
 
         System.out.println("\t" + calculatorService.calculate(calculationHelper.c,calculationHelper.d,calculationHelper.o));
 
+        /*
+        * Negyedik feladat
+        * ------------------
+        * */
 
+        System.out.println();
+        System.out.println("Negyedik feladat.\n" );
 
-
-
+        System.out.println("\t" + calculatorService.num + " szám páros? " + calculatorService.even(calculatorService.num));
 
     }
     }

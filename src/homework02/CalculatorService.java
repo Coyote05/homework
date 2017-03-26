@@ -1,5 +1,6 @@
 package homework02;
 
+import java.util.Random;
 
 public class CalculatorService {
 
@@ -39,5 +40,22 @@ public class CalculatorService {
             return result;
 
         }
+
+        /*Harmadik feladat*/
+
+        float min = 25.0f;
+        float max = 50.0f;
+
+        Random generator = new Random();
+
+        public float num = generator.nextFloat() * (max - min) + min;
+
+        public boolean even(float num){
+
+            return num % 2 == 0;
+        }
+
+
+
 
 }
