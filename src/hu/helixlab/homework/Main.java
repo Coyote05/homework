@@ -164,7 +164,7 @@ public class Main {
         System.out.println();
         System.out.println("Negyedik feladat.\n" );
 
-        System.out.println("\t" + calculatorService.num + " szám páros? " + calculatorService.even(calculatorService.num));
+        System.out.println("\t" + calculatorService.num + " egész szám? " + calculatorService.even(calculatorService.num));
 
 
 
