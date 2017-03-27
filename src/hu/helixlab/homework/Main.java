@@ -146,15 +146,11 @@ public class Main {
         System.out.println();
         System.out.println("Harmadik feladat.\n" );
 
-        System.out.println("Adja meg x-et: ");
-
-        System.out.println("Adja meg y-t: ");
-
-        System.out.println("Adja meg a műveletet: ");
-
         CalculationHelper calculationHelper = new CalculationHelper();
 
-        System.out.println("\t" + calculatorService.calculate(calculationHelper.c,calculationHelper.d,calculationHelper.o));
+        calculationHelper.third();
+
+        System.out.println("\t" + calculatorService.calculate(calculationHelper.c, calculationHelper.d, calculationHelper.o));
 
         /*
         * Negyedik feladat
