@@ -6,24 +6,27 @@ import java.util.Scanner;
 
 public class CalculationHelper {
 
-    public int c;
-    public int d;
-    public char o;
-
-    public void third() {
+    public int scanning() {
 
             Scanner scanner = new Scanner(System.in);
+            CalculatorService calculatorService = new CalculatorService();
 
             System.out.println("Adja meg x-et: ");
-            c = scanner.nextInt();
+            int c = scanner.nextInt();
 
             System.out.println("Adja meg y-t: ");
-            d = scanner.nextInt();
+            int d = scanner.nextInt();
 
             System.out.println("Adja meg a műveletet: ");
-            o = scanner.next().charAt(0);
+            char o = scanner.next().charAt(0);
+
+            return calculatorService.calculate(c, d, o);
+
         }
+
     }
+
+
 
 
 

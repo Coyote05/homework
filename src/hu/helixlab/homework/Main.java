@@ -147,10 +147,7 @@ public class Main {
         System.out.println("Harmadik feladat.\n" );
 
         CalculationHelper calculationHelper = new CalculationHelper();
-
-        calculationHelper.third();
-
-        System.out.println("\t" + calculatorService.calculate(calculationHelper.c, calculationHelper.d, calculationHelper.o));
+        System.out.println(calculationHelper.scanning());
 
         /*
         * Negyedik feladat
