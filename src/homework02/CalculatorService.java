@@ -60,12 +60,12 @@ public class CalculatorService {
 
         Random generated = new Random();
 
-        public int num1 = generated.nextInt(100+150);
-        public int num2 = generated.nextInt(100+150);
+        public double num1 = generated.nextInt(100+150);
+        public double num2 = generated.nextInt(100+150);
 
-        public int result2;
+        public double result2;
 
-        public int bigger(){
+        public double bigger(){
             if((num1 > num2 && num1 % 2 == 0) || (num1 < num2 && num1 % 2 != 0)){
                 result2 = num1;
             }
@@ -73,7 +73,7 @@ public class CalculatorService {
                 result2 = num2;
             }
             else{
-                result2 = num1^num2;
+                result2 = Math.pow(num1,num2);
             }
             return result2;
         }
