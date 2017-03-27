@@ -1,5 +1,8 @@
 package hu.helixlab.homework;
 
+import homework02.CalculationHelper;
+import homework02.CalculatorService;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -112,5 +115,67 @@ public class Main {
         System.out.println("Hatodik feladat.");
         System.out.println("\tA \'" + character + "\' karakter Ascii kódja: " + ascii);
 
+        /*
+        * Második feladatsor
+        * Első feladat
+        * ------------------
+        * */
+
+        System.out.println();
+        System.out.println("Második feladatsor. Első feladat.\n" );
+
+        CalculatorService calculatorService = new CalculatorService();
+
+        System.out.println("\t" + calculatorService.isItEven(6));
+
+        /*
+        * Második feladat
+        * ------------------
+        * */
+
+        System.out.println();
+        System.out.println("Második feladat.\n" );
+
+        System.out.println("\t" + calculatorService.calculate(6,2,'*'));
+
+        /*
+        * Harmadik feladat
+        * ------------------
+        * */
+
+        System.out.println();
+        System.out.println("Harmadik feladat.\n" );
+
+        System.out.println("Adja meg x-et: ");
+
+        System.out.println("Adja meg y-t: ");
+
+        System.out.println("Adja meg a műveletet: ");
+
+        CalculationHelper calculationHelper = new CalculationHelper();
+
+        System.out.println("\t" + calculatorService.calculate(calculationHelper.c,calculationHelper.d,calculationHelper.o));
+
+        /*
+        * Negyedik feladat
+        * ------------------
+        * */
+
+        System.out.println();
+        System.out.println("Negyedik feladat.\n" );
+
+        System.out.println("\t" + calculatorService.num + " egész szám? " + calculatorService.even(calculatorService.num));
+
+        /*
+        * Ötödik feladat
+        * ------------------
+        * */
+
+        System.out.println();
+        System.out.println("Ötödik feladat.\n" );
+
+        System.out.println("\t" + calculatorService.num1 + " " + calculatorService.num2);
+        System.out.println("\t" + calculatorService.bigger());
+
     }
-}
+    }
