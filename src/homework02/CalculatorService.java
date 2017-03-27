@@ -73,7 +73,7 @@ public class CalculatorService {
                 result2 = num2;
             }
             else{
-                result2 = num1 * num2;
+                result2 = num1^num2;
             }
             return result2;
         }
